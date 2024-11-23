@@ -1,0 +1,2 @@
+# ignora o diretorio .terraform
+.terraform/
