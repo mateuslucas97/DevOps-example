@@ -1,7 +1,7 @@
 #provedor aws
 provider "aws" {
     region = "us-east-1"
-    
+
 }
 
 #chave publica da AWS
@@ -20,6 +20,8 @@ resource "aws_security_group" "ec2_sg"{
         to_port     = 22
         protocol    = "tcp"
         cidr_blocks = ["200.198.1.214/32"]
+
+
     }
 
     ingress {
